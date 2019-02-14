@@ -1,0 +1,14 @@
+/*Responsive CSS for media = "screen and (max-width: 575px)"*/
+/*responsive3.css applies only to index.html to remove extra text from smaller devices*/
+
+.longtext{
+	display:none;
+}
+
+.founder1:hover .founder1bio{
+	display: block;
+}
+
+.founder2:hover .founder2bio{
+	display: block;
+}

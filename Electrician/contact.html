@@ -1,0 +1,138 @@
+<!Doctype HTML>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<meta name='viewport' content='width=device-width' />
+			<link href="favicon.ico" rel="icon"> 
+			<link href="favicon.ico" rel="shortcut icon">
+			<link rel="stylesheet" type="text/css" href="main.css">
+			<link rel="stylesheet" href="responsive.CSS"  media = "screen and (max-width: 991px)">
+			<link rel="stylesheet" href="responsive2.CSS"  media = "screen and (max-width: 767px)">
+			<title>D-Lectronics: Contact Us</title>
+			
+			<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+			<script>
+	
+				navigator.geolocation.getCurrentPosition(success);
+				function success(position){
+				var mylat = 52.233754;
+				var mylong = -9.462949;
+	
+				var coords  = new google.maps.LatLng(mylat, mylong);	
+				
+				var mapOptions  = {
+	
+				zoom:16,
+				center:coords,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+	
+				}
+				
+				var map = new google.maps.Map(document.getElementById("map"), mapOptions);	
+				
+				var marker = new google.maps.Marker({map:map, position:coords})
+				}
+
+
+			</script>
+		</head>
+		
+		<body>
+		
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
+			fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+
+			<div class="banner">
+				<h1>Contact Us</h1>
+				<h2>D-Lectronics</h2>
+			</div>
+			
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			
+			<div class="menuresponsive">
+				<ul>					
+					<li class="dropdown">
+						<a href="#" class="dropbtn first">Menu</a>
+						<a href="#" class="dropbtn logo">D-Lectronics</a>
+						<div class="dropdown-content">
+							<a href="index.html">Home</a>
+							<a href="services.html">Services</a>
+							<a href="contact.html">Contact</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+									
+			<div class="intro contact-details">
+				
+				<div class="details">
+					<h2>Contact Details</h2>
+					<p>Opening Hours:</p>
+						<ul>
+							<li>Monday-Saturday: 10A.M. - 5P.M</li>
+							<li>Sunday: Closed</li>
+							<li>Bank Holidays: Closed</li>
+						</ul>
+					<p>Email: <a href="mailto:dlectronics@gmail.com">dlectronics@gmail.com</a></p>
+					<p>Telephone: <a href="tel:+353667143711" style="color:black; text-decoration:none">066-7143711</a></p>
+					<p>Address:</p>
+						<address>
+						108 Main St.<br>
+						Castleisland<br>
+						Co Kerry<br><br>
+						</address>
+				</div>
+
+				<div class="social">
+					<div class="fb-page" data-href="https://www.facebook.com/dlectronics" data-tabs="timeline" data-width="500" data-height="200" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/dlectronics" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/dlectronics">D-Lectronics</a></blockquote></div>			
+					<div id = "map" class="map"></div>
+				</div>
+			</div>
+			
+			
+
+			<footer>
+				<div class="foot">
+					<div class="lfloat">
+					<p>Opening Hours:</p>
+					<ul>
+						<li>Monday-Saturday: 10A.M. - 5P.M</li>
+						<li>Sunday: Closed</li>
+						<li>Bank Holidays: Closed</li>
+					</ul>
+					</div>
+					
+					<div class="lfloat">
+					<p>Address:</p>
+						<address>
+						108 Main St.<br>
+						Castleisland<br>
+						Co Kerry<br><br>
+						</address>
+					</div>
+					
+					<div class="lfloat">
+					<p>Email: <a href="mailto:dlectronics@gmail.com" style="color:white; text-decoration:none">dlectronics@gmail.com</a></p>
+					
+					<p>Telephone: <a href="tel:+353667143711" style="color:white; text-decoration:none">066-7143711</a></p>
+					</div>
+
+					<p class="tc">D-Lectronics reserves the right to refuse service. Terms & conditions apply</p>
+				</div>
+			</footer>
+			
+		</body>
+	</html>

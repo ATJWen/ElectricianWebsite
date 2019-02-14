@@ -1,0 +1,236 @@
+/*CSS for D-lectronics*/
+
+/*main page*/
+
+body{
+	padding:0;
+	margin:0;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+/*Banner Design*/
+.banner{
+	background-image: url("background.jpg"); /*http://www.guoguiyan.com/electronics-wallpapers.html*/
+	color: white;
+	width: 100%;
+	text-align: center;
+	margin:0;
+	font-size: 3em;
+	padding: 2em 0;
+}
+.banner h2{
+	font-size:1em;
+	position: absolute;
+	top:0;
+	left:3%;
+}
+
+/*Styling Menu*/
+.menu ul{
+	list-style-type: none;
+	background-color: #0d0d0d;
+	margin: 0;
+	padding:0.5% 0 0 0;
+}
+
+.menu li{
+	display: inline-block;
+	margin-left: 22%;
+	text-align: center;
+	font-size:1.5em;
+}
+
+.menu{
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.menu a{
+	color: white;
+	text-decoration:none;
+}
+
+.menuresponsive{
+	display:none;
+}
+
+.logo{
+	display: none;
+}
+
+.intro{
+	text-align: center;
+	width: 70%;
+	margin: 10% auto;
+}
+
+.intro h2{
+	font-size:2.5em;
+}
+
+.intro p{
+	font-size:1.2em;
+}
+
+.productintroleft{
+	padding: 3%;
+	margin-bottom: 10%;
+	position: relative;
+	float: left;
+}
+
+.productintroright{
+	padding: 3%;
+	margin-bottom: 10%;
+	position: relative;
+	float: right;
+}
+
+.imgbutton{
+	border-style:solid;
+	border-width:1px;
+	border-radius: 1em;
+	width: 60%;
+	position: absolute;
+	top:45%;
+	left:22%;
+	background-color: white;
+	opacity: 0.8;
+	border-color:black;
+	color: black;
+}
+
+.bio{
+	width:60%;
+	margin:0 auto;
+	
+}
+
+.bio p{
+	text-align:center;
+	font-size:1.2em;
+}
+
+.founderpic{
+	border-radius: 50%;
+	position: relative;
+	top: 0;
+	left: 30%;
+}
+
+.founder1{
+	float:left;
+	width: 45%;
+	margin-bottom: 10%;
+}
+
+.founder2{
+	float:right;
+	width: 45%;
+	clear: right;
+	margin-bottom: 10%;
+}
+
+.fullreview{
+	margin: 2% 0;
+	border-style:solid;
+	border-width: 2px;
+	padding: 0.2em;
+}
+
+.reviewer{
+	float:left;
+	clear: left;
+}
+
+.rating{
+	font-style:italic;
+}
+
+.review{
+	text-align: left;
+	padding-left: 15%;
+}
+
+.tv-pkg h3{
+	font-size: 2em;
+	text-align: left;
+}
+
+.tv-pkg p, ul{
+	text-align: left;
+}
+
+.tv-pkg{
+	width: 40%;
+	float: left;
+	margin: 5%;
+}
+
+.serviceimg2{
+	position:absolute; 
+	top:80%; 
+	left:70%;
+}
+
+footer{
+	padding:1em 3em;
+	background-color:black;
+	color:white;
+	clear: both;
+	width: 100%;
+	height:100%;
+}
+
+footer ul{
+	list-style-type: none;
+}
+
+.foot{
+	width: 75%;
+	margin: 0 auto;
+}
+
+.lfloat{
+	float:left;
+	margin:0em 4em;
+}
+
+.lfloat:last-child{
+	margin-left: 6em;
+}
+
+.contact-details{
+	text-align:left;
+}
+
+.map{
+	width:340px;
+	height:340px;
+	margin: 8% 0;
+}
+
+.fb-page{
+	margin-bottom: 8%;
+}
+
+.details{
+	float: left;
+}
+
+.social{
+	float:right;
+	max-width: 340px;
+}
+
+.tc{
+	clear: left;
+	margin-left: 4.25em;
+}
+
+.reviewfloat{
+	text-align:right; 
+	margin-right: 20%;
+}
